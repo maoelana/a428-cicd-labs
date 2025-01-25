@@ -17,9 +17,9 @@ pipeline {
             }
         }
         stage('Deploy') {
-            // steps {
-            //     // sh './jenkins/scripts/test.sh'
-            // }
+            steps {
+                // sh './jenkins/scripts/test.sh'
+            }
         }
     }
 }
